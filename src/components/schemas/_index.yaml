@@ -1,0 +1,6 @@
+  Pet:
+    $ref: "./pet-schema.yaml"
+  Pets:
+    $ref: "./pets-schema.yaml"
+  Error:
+    $ref: "./error-schema.yaml"

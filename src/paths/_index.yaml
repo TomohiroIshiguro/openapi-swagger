@@ -1,0 +1,9 @@
+/pets:
+  get:
+    $ref: "./pets_get-list.yaml"
+  post:
+    $ref: "./pets_post-list.yaml"
+
+/pets/{petId}:
+  get:
+    $ref: "./pets_get-item-by-petId.yaml"

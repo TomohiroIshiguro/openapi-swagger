@@ -1,0 +1,10 @@
+openapi: "3.0.0"
+info:
+  $ref: "./common/info.yaml"
+servers:
+  $ref: "./common/servers.yaml"
+paths:
+  $ref: "./paths/_index.yaml"
+components:
+  schemas:
+    $ref: "./components/schemas/_index.yaml"
